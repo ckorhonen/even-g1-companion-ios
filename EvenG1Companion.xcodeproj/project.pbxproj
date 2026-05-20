@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3D80685668E3699A0DD5E3 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC07CBBB02898D7699115E /* ControlView.swift */; };
+		506B614516594CF2A878786C /* GlassesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B9C25F3A3A98D1B2A92BF /* GlassesModels.swift */; };
+		6A25C839FA8AEA4937DBD605 /* EvenG1CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF00B8F5F67FD4B86CBEA7EF /* EvenG1CompanionUITests.swift */; };
+		7C0BCC6BCE94DA1FCAF0A641 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83F9CDB711711B509AE50C1 /* Hex.swift */; };
+		9780A091B288A868497FB732 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C720D50462669C74A6DBB2 /* DiagnosticsView.swift */; };
+		AA7BA5453640E7F422D1D23F /* EvenG1CompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40048671385304393B8BBBA9 /* EvenG1CompanionApp.swift */; };
+		AC42E099960CCF30812A828F /* GlassesBluetoothStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FDEBF466B7454EEA9A873A /* GlassesBluetoothStore.swift */; };
+		AD6039FCA5477365E40DF9D1 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102FC775EB9D5616EFCC792A /* LogView.swift */; };
+		D5C4B1F680498AEAF932594B /* EvenProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36190664C0B9AC2D4D57BD6 /* EvenProtocolTests.swift */; };
+		E4971EF53DCE978B33570BB4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823049C8CA3C92B8D59A4031 /* RootView.swift */; };
+		ED46E06CDDE8A0615B24E9B1 /* GlassPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE270D00F75969482018B711 /* GlassPanel.swift */; };
+		F51A05F74613AB8B9AD19CB4 /* EvenProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27784811F16ABB25273E13 /* EvenProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31C8F112DC6A66E50399694D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88414C9183ECE136820A2FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B59092BEBF0020ED6FA3C12;
+			remoteInfo = EvenG1Companion;
+		};
+		5166C7B5E192949C9AD13883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88414C9183ECE136820A2FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B59092BEBF0020ED6FA3C12;
+			remoteInfo = EvenG1Companion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069339F0304B4BA5BAD56B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		102FC775EB9D5616EFCC792A /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		361F560691EA433C69816ED3 /* EvenG1Companion.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EvenG1Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C720D50462669C74A6DBB2 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		40048671385304393B8BBBA9 /* EvenG1CompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenG1CompanionApp.swift; sourceTree = "<group>"; };
+		59FDEBF466B7454EEA9A873A /* GlassesBluetoothStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesBluetoothStore.swift; sourceTree = "<group>"; };
+		74EC07CBBB02898D7699115E /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		823049C8CA3C92B8D59A4031 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A736E1E9980C357F345E17D0 /* EvenG1CompanionUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EvenG1CompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83F9CDB711711B509AE50C1 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		BD27784811F16ABB25273E13 /* EvenProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenProtocol.swift; sourceTree = "<group>"; };
+		BD9B9C25F3A3A98D1B2A92BF /* GlassesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesModels.swift; sourceTree = "<group>"; };
+		C36190664C0B9AC2D4D57BD6 /* EvenProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenProtocolTests.swift; sourceTree = "<group>"; };
+		CF00B8F5F67FD4B86CBEA7EF /* EvenG1CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenG1CompanionUITests.swift; sourceTree = "<group>"; };
+		DE270D00F75969482018B711 /* GlassPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassPanel.swift; sourceTree = "<group>"; };
+		F15A7EBE8BB3A163BFF6EF98 /* EvenG1CompanionTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EvenG1CompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		057394CAF7AA6C78A91D7EF8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				74EC07CBBB02898D7699115E /* ControlView.swift */,
+				39C720D50462669C74A6DBB2 /* DiagnosticsView.swift */,
+				102FC775EB9D5616EFCC792A /* LogView.swift */,
+				823049C8CA3C92B8D59A4031 /* RootView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		0B50CBBC8F3E91D95E47636E /* EvenG1CompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36190664C0B9AC2D4D57BD6 /* EvenProtocolTests.swift */,
+			);
+			path = EvenG1CompanionTests;
+			sourceTree = "<group>";
+		};
+		0F3E0D4493CB4C5109F0C70F /* EvenG1Companion */ = {
+			isa = PBXGroup;
+			children = (
+				069339F0304B4BA5BAD56B50 /* Info.plist */,
+				C3FF39C2F3173DFE00EF2B35 /* App */,
+				B689EA6A9D990E29C689ED0B /* Core */,
+				2645EB277C47A565824FA6DD /* Design */,
+				057394CAF7AA6C78A91D7EF8 /* Features */,
+			);
+			path = EvenG1Companion;
+			sourceTree = "<group>";
+		};
+		2645EB277C47A565824FA6DD /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				DE270D00F75969482018B711 /* GlassPanel.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		619C3C294BFCFFF741CAAF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361F560691EA433C69816ED3 /* EvenG1Companion.app */,
+				F15A7EBE8BB3A163BFF6EF98 /* EvenG1CompanionTests.xctest */,
+				A736E1E9980C357F345E17D0 /* EvenG1CompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DE17A724B0AE887F13365D4 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				59FDEBF466B7454EEA9A873A /* GlassesBluetoothStore.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		7183AAF35E94997F310ACF7B /* EvenG1CompanionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF00B8F5F67FD4B86CBEA7EF /* EvenG1CompanionUITests.swift */,
+			);
+			path = EvenG1CompanionUITests;
+			sourceTree = "<group>";
+		};
+		B689EA6A9D990E29C689ED0B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6DE17A724B0AE887F13365D4 /* Bluetooth */,
+				C5F2B1B0DA39FD0AC7BE089B /* Protocol */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C3FF39C2F3173DFE00EF2B35 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				40048671385304393B8BBBA9 /* EvenG1CompanionApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C5F2B1B0DA39FD0AC7BE089B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BD27784811F16ABB25273E13 /* EvenProtocol.swift */,
+				BD9B9C25F3A3A98D1B2A92BF /* GlassesModels.swift */,
+				B83F9CDB711711B509AE50C1 /* Hex.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D3BCD3C3572881A7861E89D9 = {
+			isa = PBXGroup;
+			children = (
+				0F3E0D4493CB4C5109F0C70F /* EvenG1Companion */,
+				0B50CBBC8F3E91D95E47636E /* EvenG1CompanionTests */,
+				7183AAF35E94997F310ACF7B /* EvenG1CompanionUITests */,
+				619C3C294BFCFFF741CAAF03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B59092BEBF0020ED6FA3C12 /* EvenG1Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FA858F926ADC5EA340CF91 /* Build configuration list for PBXNativeTarget "EvenG1Companion" */;
+			buildPhases = (
+				1CA5007C2D2A0243CB15152A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvenG1Companion;
+			productName = EvenG1Companion;
+			productReference = 361F560691EA433C69816ED3 /* EvenG1Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		592940E431944F10091BA8BE /* EvenG1CompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F33A329BE57C4643804EDB /* Build configuration list for PBXNativeTarget "EvenG1CompanionUITests" */;
+			buildPhases = (
+				0B8D3DFB0B658A9E219305FE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B342D608D2FE98B221BA75 /* PBXTargetDependency */,
+			);
+			name = EvenG1CompanionUITests;
+			productName = EvenG1CompanionUITests;
+			productReference = A736E1E9980C357F345E17D0 /* EvenG1CompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9C4C5AFAE1CB5C888820F103 /* EvenG1CompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374411A6104721DECDBB43F6 /* Build configuration list for PBXNativeTarget "EvenG1CompanionTests" */;
+			buildPhases = (
+				0A0F57FE958C8EE3C5CCCA61 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AA87114C3724353D4AABD9 /* PBXTargetDependency */,
+			);
+			name = EvenG1CompanionTests;
+			productName = EvenG1CompanionTests;
+			productReference = F15A7EBE8BB3A163BFF6EF98 /* EvenG1CompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88414C9183ECE136820A2FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0B59092BEBF0020ED6FA3C12 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					592940E431944F10091BA8BE = {
+						TestTargetID = 0B59092BEBF0020ED6FA3C12;
+					};
+				};
+			};
+			buildConfigurationList = 95089A75214B849C230B1F60 /* Build configuration list for PBXProject "EvenG1Companion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D3BCD3C3572881A7861E89D9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B59092BEBF0020ED6FA3C12 /* EvenG1Companion */,
+				9C4C5AFAE1CB5C888820F103 /* EvenG1CompanionTests */,
+				592940E431944F10091BA8BE /* EvenG1CompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0F57FE958C8EE3C5CCCA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C4B1F680498AEAF932594B /* EvenProtocolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8D3DFB0B658A9E219305FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A25C839FA8AEA4937DBD605 /* EvenG1CompanionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA5007C2D2A0243CB15152A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D80685668E3699A0DD5E3 /* ControlView.swift in Sources */,
+				9780A091B288A868497FB732 /* DiagnosticsView.swift in Sources */,
+				AA7BA5453640E7F422D1D23F /* EvenG1CompanionApp.swift in Sources */,
+				F51A05F74613AB8B9AD19CB4 /* EvenProtocol.swift in Sources */,
+				ED46E06CDDE8A0615B24E9B1 /* GlassPanel.swift in Sources */,
+				AC42E099960CCF30812A828F /* GlassesBluetoothStore.swift in Sources */,
+				506B614516594CF2A878786C /* GlassesModels.swift in Sources */,
+				7C0BCC6BCE94DA1FCAF0A641 /* Hex.swift in Sources */,
+				AD6039FCA5477365E40DF9D1 /* LogView.swift in Sources */,
+				E4971EF53DCE978B33570BB4 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10AA87114C3724353D4AABD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B59092BEBF0020ED6FA3C12 /* EvenG1Companion */;
+			targetProxy = 31C8F112DC6A66E50399694D /* PBXContainerItemProxy */;
+		};
+		E9B342D608D2FE98B221BA75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B59092BEBF0020ED6FA3C12 /* EvenG1Companion */;
+			targetProxy = 5166C7B5E192949C9AD13883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30C2A3C030323F0BAE6102AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EvenG1Companion/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ckorhonen.eveng1companion;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33D98DC98C8C99682485AE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ckorhonen.eveng1companion.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvenG1Companion.app/EvenG1Companion";
+			};
+			name = Release;
+		};
+		3414AA3C8B6A54B9023328A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4302B1772070723137CD72B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ckorhonen.eveng1companion.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EvenG1Companion;
+			};
+			name = Release;
+		};
+		6A9F901BB7F373D19668A15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ckorhonen.eveng1companion.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvenG1Companion.app/EvenG1Companion";
+			};
+			name = Debug;
+		};
+		7717A35C687BA0AE2C89A329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ckorhonen.eveng1companion.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EvenG1Companion;
+			};
+			name = Debug;
+		};
+		CD5EF10C9E340099F1532CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EvenG1Companion/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ckorhonen.eveng1companion;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB6E225887BEDCBCA0348656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F33A329BE57C4643804EDB /* Build configuration list for PBXNativeTarget "EvenG1CompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7717A35C687BA0AE2C89A329 /* Debug */,
+				4302B1772070723137CD72B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		374411A6104721DECDBB43F6 /* Build configuration list for PBXNativeTarget "EvenG1CompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9F901BB7F373D19668A15C /* Debug */,
+				33D98DC98C8C99682485AE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91FA858F926ADC5EA340CF91 /* Build configuration list for PBXNativeTarget "EvenG1Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C2A3C030323F0BAE6102AE /* Debug */,
+				CD5EF10C9E340099F1532CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95089A75214B849C230B1F60 /* Build configuration list for PBXProject "EvenG1Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6E225887BEDCBCA0348656 /* Debug */,
+				3414AA3C8B6A54B9023328A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88414C9183ECE136820A2FD0 /* Project object */;
+}

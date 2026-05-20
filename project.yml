@@ -1,0 +1,97 @@
+name: EvenG1Companion
+options:
+  bundleIdPrefix: com.ckorhonen
+  deploymentTarget:
+    iOS: "26.0"
+configs:
+  Debug: debug
+  Release: release
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+    IPHONEOS_DEPLOYMENT_TARGET: 26.0
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 0.1.0
+    ENABLE_PREVIEWS: YES
+    TARGETED_DEVICE_FAMILY: "1"
+targets:
+  EvenG1Companion:
+    type: application
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: EvenG1Companion
+    info:
+      path: EvenG1Companion/Info.plist
+      properties:
+        CFBundleDisplayName: Even G1
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen: {}
+        UIUserInterfaceStyle: Automatic
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIBackgroundModes:
+          - bluetooth-central
+        NSBluetoothAlwaysUsageDescription: Connect to Even G1-style glasses over Bluetooth.
+        NSMicrophoneUsageDescription: Record explicit voice-note sessions from the glasses microphone.
+        NSSpeechRecognitionUsageDescription: Transcribe explicit voice-note sessions when enabled.
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ckorhonen.eveng1companion
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+    scheme:
+      gatherCoverageData: true
+      testTargets:
+        - EvenG1CompanionTests
+        - EvenG1CompanionUITests
+
+  EvenG1CompanionTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "26.0"
+    hostApplication: EvenG1Companion
+    sources:
+      - path: EvenG1CompanionTests
+    dependencies:
+      - target: EvenG1Companion
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ckorhonen.eveng1companion.tests
+        GENERATE_INFOPLIST_FILE: YES
+
+  EvenG1CompanionUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: EvenG1CompanionUITests
+    dependencies:
+      - target: EvenG1Companion
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ckorhonen.eveng1companion.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: EvenG1Companion
+
+schemes:
+  EvenG1Companion:
+    build:
+      targets:
+        EvenG1Companion: all
+        EvenG1CompanionTests: [test]
+        EvenG1CompanionUITests: [test]
+    test:
+      gatherCoverageData: true
+      targets:
+        - name: EvenG1CompanionTests
+        - name: EvenG1CompanionUITests
+    run:
+      config: Debug
+
